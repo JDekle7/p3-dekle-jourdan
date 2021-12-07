@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'opensans-regular';
+    src: url('../fonts/opensans-regular.ttf');
+}
+
+@font-face {
+    font-family: 'lato-bold';
+    src: url('../fonts/lato-bold.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    font-family: 'opensans-regular';
+    background: #f4f4f8
+}
+
+h1 {
+    font-family: 'lato-bold', sans-serif;
+    font-size: 50px;
+}
+
+.job-title {
+    font-family: 'lato-bold', sans-serif;
+    font-size: 25px;
+}
