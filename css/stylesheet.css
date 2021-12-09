@@ -61,6 +61,7 @@ header nav {
     width: 65%;
     display: inline-block;
     font-weight: bold;
+    color: #022245;
 }
 
 .menu ul {
@@ -144,7 +145,6 @@ h1 {
     text-align: center;
 }
 
-
 /*======about page=====*/
 .other-header {
     background: #77B6EA;
@@ -180,9 +180,71 @@ main img {
 }
 
 /*======graphic design page=======*/
-
 .gallery img {
     width: 400px;
     padding: 20px;
     vertical-align: middle;
+}
+
+/*=====writing page=====*/
+.left-half2, .right-half2 {
+    width: 46%;
+    display: inline-block;
+}
+
+.left-half2 {
+    vertical-align: top;
+}
+
+.right-half2 {
+    vertical-align: top;
+    list-style-type: none;
+}
+
+/*======uxd page======*/
+
+
+
+/*======contact page======*/
+form {
+    background: #77B6EA;
+    padding: 20px;
+    max-width: 800px;
+    border-radius: 7px;
+    margin: 0 auto;
+    box-shadow: #022245;
+    font-family: 'opensans-regular';
+}
+
+.label_input_wrap {
+    display: block;
+}
+
+.submit input {
+    background: #022245;
+    color: white;
+    padding: 15px;
+    margin: 12px;
+    border-radius: 5px;
+}
+
+.input-section {
+    margin: 10px;
+    font-family: 'opensans-regular';
+}
+
+textarea {
+    font-family: 'opensans-regular';
+    padding: 20px;
+    border-radius: 5px;
+}
+
+input {
+    padding: 7px 25px;
+    border-radius: 5px;
+}
+
+.submit input:hover {
+    background: lightskyblue;
+    color: #022245;
 }
