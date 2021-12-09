@@ -17,42 +17,13 @@
     box-sizing: border-box;
 }
 
-/*====home page====*/
-body {
-    font-family: 'opensans-regular';
-    background: #f4f4f8;
-    color: #022245;
-}
-
-h1 {
-    font-family: 'lato-bold', sans-serif;
-    font-size: 70px;
-    text-align: center;
-}
-
-.job-title {
-    font-family: 'lato-bold', sans-serif;
-    font-size: 40px;
-    text-align: center;
-}
-
-.logo {
-    width: 30%;
-    display: inline-block;
-}
-
-.background-image {
-    width: 100%;
-    position: absolute;
-    z-index: -9999;
-}
-
 /*====footer====*/
 footer {
     text-align: center;
     font-weight: bold;
     padding: 10px;
     background: #77B6EA;
+    bottom: 0;
 }
 
 footer a {
@@ -125,8 +96,6 @@ header nav {
     width: 200px;
 }
 
-
-
 .sub-menu {
     display: none;
     color: white;
@@ -150,12 +119,70 @@ a:visited {
     color:#022245;
 }
 
+/*====home page====*/
+.background-image {
+    width: 100%;
+    position: absolute;
+    z-index: -9999;
+}
 
-/*=====home page======*/
+body {
+    font-family: 'opensans-regular';
+    background: #f4f4f8;
+    color: #022245;
+}
+
+h1 {
+    font-family: 'lato-bold', sans-serif;
+    font-size: 70px;
+    text-align: center;
+}
+
+.job-title {
+    font-family: 'lato-bold', sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
 
 
 /*======about page=====*/
 .other-header {
     background: #77B6EA;
     padding: 30px;
+}
+
+.left-half, .right-half {
+    width: 46%;
+    display: inline-block;
+}
+
+.left-half img {
+    width: 500px;
+    vertical-align: top;
+    margin: 50px 20px;
+}
+
+.left-half {
+    width: 50%;
+}
+
+.right-half {
+    vertical-align: top;
+    font-size: 20px;
+}
+
+span {
+    font-weight: bold;
+}
+
+main img {
+    position: relative;
+}
+
+/*======graphic design page=======*/
+
+.gallery img {
+    width: 400px;
+    padding: 20px;
+    vertical-align: middle;
 }
