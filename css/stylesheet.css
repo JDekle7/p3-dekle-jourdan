@@ -187,6 +187,25 @@ main img {
 }
 
 /*=====writing page=====*/
+.right-half2 a {
+    color: #022245;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.right-half2 a:visited {
+    color: #022245;
+}
+
+.right-half2 ul {
+    list-style-type: none;
+}
+
+.right-half2 {
+    vertical-align: top;
+    list-style-type: none;
+}
+
 .left-half2, .right-half2 {
     width: 46%;
     display: inline-block;
@@ -196,10 +215,7 @@ main img {
     vertical-align: top;
 }
 
-.right-half2 {
-    vertical-align: top;
-    list-style-type: none;
-}
+
 
 /*======uxd page======*/
 
