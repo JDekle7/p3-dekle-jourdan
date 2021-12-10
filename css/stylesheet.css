@@ -139,16 +139,50 @@ h1 {
     text-align: center;
 }
 
+h3 {
+    font-size: 23px;
+}
+
 .job-title {
     font-family: 'lato-bold', sans-serif;
     font-size: 40px;
     text-align: center;
 }
 
+.home-container a:hover {
+    background: lightskyblue;
+    color: #022245;
+}
+
+.home-container a {
+    text-decoration: none;
+    background: #022245;
+    color: white;
+    padding: 15px;
+    margin: 30px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.home-container p {
+    font-size: 16px;
+}
+
+.graphic-design {
+    border-color: #77B6EA;
+    color: #022245;
+    padding: 20px;
+    margin: 15px;
+    width: 40%;
+    text-align: center;
+    border-radius: 7px;
+}
+
 /*======about page=====*/
 .other-header {
     background: #77B6EA;
-    padding: 30px;
+    padding: 25px;
+    margin-bottom: 30px;
 }
 
 .left-half, .right-half {
@@ -169,10 +203,6 @@ h1 {
 .right-half {
     vertical-align: top;
     font-size: 20px;
-}
-
-span {
-    font-weight: bold;
 }
 
 main img {
@@ -215,13 +245,50 @@ main img {
     vertical-align: top;
 }
 
-
-
 /*======uxd page======*/
+.uxd-container a {
+    text-decoration: none;
+    background: #022245;
+    color: white;
+    padding: 10px;
+    margin: 30px 10px;
+    border-radius: 5px;
+}
 
+.uxd-container p {
+    font-size: 16px;
+}
 
+.uxd-container a:hover {
+    background: lightskyblue;
+    color: #022245;
+}
+
+.portfolio-mockup {
+    background: #77B6EA;
+    color: #022245;
+    padding: 20px;
+    margin: 15px;
+    width: 40%;
+    text-align: center;
+    border-radius: 7px;
+}
+
+.portfolio-wireframe {
+    background: #77B6EA;
+    color: #022245;
+    padding: 20px;
+    margin: 15px;
+    width: 40%;
+    text-align: center;
+    border-radius: 7px;
+}
 
 /*======contact page======*/
+.contact-header {
+    margin-bottom: 30px;
+}
+
 form {
     background: #77B6EA;
     padding: 20px;
