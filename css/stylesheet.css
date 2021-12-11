@@ -123,14 +123,19 @@ a:visited {
 /*====home page====*/
 .background-image {
     width: 100%;
-    position: absolute;
-    z-index: -9999;
+    z-index: -100;
+}
+
+.home-container {
+    max-width: 47%;
+    margin: 0 auto;
 }
 
 body {
     font-family: 'opensans-regular';
     background: #f4f4f8;
     color: #022245;
+    font-size: 15px;
 }
 
 h1 {
@@ -140,13 +145,24 @@ h1 {
 }
 
 h3 {
-    font-size: 23px;
+    font-size: 35px;
 }
 
 .job-title {
     font-family: 'lato-bold', sans-serif;
     font-size: 40px;
     text-align: center;
+}
+
+.hero-section {
+    position: relative;
+}
+
+.intro {
+    position: absolute;
+    top: 316px;
+    left: 20px;
+    right: 0;
 }
 
 .home-container a:hover {
@@ -162,6 +178,9 @@ h3 {
     margin: 30px 10px;
     border-radius: 5px;
     font-weight: bold;
+    display: block;
+    max-width: 150px;
+    text-align: center;
 }
 
 .home-container p {
@@ -169,20 +188,77 @@ h3 {
 }
 
 .graphic-design {
-    border-color: #77B6EA;
+    border: #77B6EA solid 4px;
     color: #022245;
     padding: 20px;
     margin: 15px;
-    width: 40%;
-    text-align: center;
     border-radius: 7px;
+    box-shadow: 5px 5px #77B6EA;
+}
+.right-column {
+    width: 75%;
+    display: inline-block;
+    vertical-align: top;
+    margin: 60px 0px 0px 50px;
+
 }
 
+.graphic-design img {
+    display: inline-block;
+    width: 20%;
+    max-width: 220px;
+}
+
+.ux {
+    border: #77B6EA solid 4px;
+    color: #022245;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 7px;
+    box-shadow: 5px 5px #77B6EA;
+}
+
+.ux img {
+    display: inline-block;
+    width: 20%;
+    max-width: 128px;
+    margin: 10px 50px 0px 40px;
+}
+
+.writing {
+    border: #77B6EA solid 4px;
+    color: #022245;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 7px;
+    box-shadow: 5px 5px #77B6EA;
+}
+
+.writing img {
+    display: inline-block;
+    width: 20%;
+    max-width: 215px;
+    margin: 10px 0px 0px 10px;
+}
 /*======about page=====*/
 .other-header {
     background: #77B6EA;
     padding: 25px;
     margin-bottom: 30px;
+}
+
+summary {
+    font-size: 45px;
+}
+
+.about-container {
+    margin: 0 auto;
+    max-width: 50%;
+}
+
+.about-container p:first-letter {
+    font-size: 35px;
+    color: #77B6EA;
 }
 
 .left-half, .right-half {
@@ -203,10 +279,15 @@ h3 {
 .right-half {
     vertical-align: top;
     font-size: 20px;
+    position: relative;
+    top: 290px;
 }
 
-main img {
+.subfooter {
     position: relative;
+    top: 70px;
+    right: 55px;
+    width: 800px;
 }
 
 /*======graphic design page=======*/
@@ -216,7 +297,18 @@ main img {
     vertical-align: middle;
 }
 
+.gallery {
+    max-width: 50%;
+    margin: 0 auto;
+}
+
 /*=====writing page=====*/
+.writing-container {
+    max-width: 30%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
 .right-half2 a {
     color: #022245;
     text-decoration: none;
@@ -242,46 +334,77 @@ main img {
 }
 
 .left-half2 {
+    width: 500px;
     vertical-align: top;
+    margin: 50px 20px;
 }
 
+.right-half2 {
+    vertical-align: top;
+    font-size: 20px;
+    position: relative;
+    left: 500px;
+    bottom: 34px;
+}
+
+.subfooter2 {
+    position: relative;
+    width: 800px;
+    right: 60px;
+    top: 73px;
+    margin-top: 20px;
+}
 /*======uxd page======*/
-.uxd-container a {
+.uxd-container {
+    max-width: 27%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.right-half3 a {
+    color: #022245;
     text-decoration: none;
-    background: #022245;
-    color: white;
-    padding: 10px;
-    margin: 30px 10px;
-    border-radius: 5px;
+    font-size: 17px;
 }
 
-.uxd-container p {
-    font-size: 16px;
-}
-
-.uxd-container a:hover {
-    background: lightskyblue;
+.right-half3 a:visited {
     color: #022245;
 }
 
-.portfolio-mockup {
-    background: #77B6EA;
-    color: #022245;
-    padding: 20px;
-    margin: 15px;
-    width: 40%;
-    text-align: center;
-    border-radius: 7px;
+.right-half3 ul {
+    list-style-type: none;
 }
 
-.portfolio-wireframe {
-    background: #77B6EA;
-    color: #022245;
-    padding: 20px;
-    margin: 15px;
-    width: 40%;
-    text-align: center;
-    border-radius: 7px;
+.right-half3 {
+    vertical-align: top;
+    list-style-type: none;
+}
+
+.uxrd, .right-half3 {
+    width: 46%;
+    display: inline-block;
+}
+
+.uxrd {
+    width: 500px;
+    vertical-align: top;
+    margin: 50px 20px;
+}
+
+.right-half3 {
+    vertical-align: top;
+    font-size: 20px;
+    position: relative;
+    left: 500px;
+    bottom: 78px;
+}
+
+.subfooter4 {
+    position: relative;
+    width: 800px;
+    right: 60px;
+    top: 73px;
+    margin-top: 20px;
 }
 
 /*======contact page======*/
@@ -331,3 +454,14 @@ input {
     background: lightskyblue;
     color: #022245;
 }
+
+.subfooter3 {
+    position: relative;
+    width: 800px;
+    right: 60px;
+    top: 73px;
+    margin-top: 20px;
+}
+
+/*=======animation======*/
+
