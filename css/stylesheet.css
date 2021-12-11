@@ -464,4 +464,21 @@ input {
 }
 
 /*=======animation======*/
+.animation {
+    position: absolute;
+    left: -500px;
+    bottom: 346px;
+    animation-name: thanks;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-delay: 3s;
+}
 
+@keyframes thanks {
+    from {
+        transform: translateX(0px);
+    }
+    to {
+        transform: translateX(1930px);
+    }
+}
